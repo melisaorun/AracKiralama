@@ -62,7 +62,7 @@ namespace AracKiralama
             komut.Parameters.AddWithValue("Gun", textBox7.Text);
             komut.Parameters.AddWithValue("ToplamTutar", textBox8.Text);
             //komut.Parameters.AddWithValue("CikisTarihi", dateTimePicker1);
-            komut.Parameters.AddWithValue("@CikisTarihi", dateTimePicker1.Value);
+            komut.Parameters.AddWithValue("@CikisTarihi", dateTimePicker1.Value); 
             //komut.Parameters.AddWithValue("DonusTarihi", dateTimePicker2);
             komut.Parameters.AddWithValue("@DonusTarihi", dateTimePicker2.Value);
             komut.ExecuteNonQuery();
